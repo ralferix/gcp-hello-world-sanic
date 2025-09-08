@@ -7,7 +7,8 @@ from sanic import Sanic
 from sanic_ext import render
 
 # pylint: disable=C0103
-app = Sanic("hello-world-sanic")
+app = Sanic("gcp-hello-world-sanic")
+app.static("/static", "./static")
 
 
 @app.get("/")
