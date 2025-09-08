@@ -9,9 +9,9 @@
                     "path": "Dockerfile"
                 }
             },
-            "image": "hello-world-1",
+            "image": "gcp-hello-world-sanic",
             "service": {
-                "name": "hello-world-1",
+                "name": "gcp-hello-world-sanic",
                 "containerPort": 8080,
                 "resources": {
                     "limits": {
